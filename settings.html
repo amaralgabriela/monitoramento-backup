@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="au theme template">
+  <meta name="author" content="Hau Nguyen">
+  <meta name="keywords" content="au theme template">
+
+  <!-- Title Page-->
+  <title>Configurações</title>
+
+  <!-- Fontfaces CSS-->
+  <link href="css/font-face.css" rel="stylesheet" media="all">
+  <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+  <link href="vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
+  <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+
+  <!-- Bootstrap CSS-->
+  <link href="vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
+
+  <!-- Tree CSS-->
+  <link rel="stylesheet" href="css/angular-ui-tree.min.css">
+  <link rel="stylesheet" href="css/angular-ui-tree.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Vendor CSS-->
+  <link href="vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
+  <link href="vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" media="all">
+  <link href="vendor/wow/animate.css" rel="stylesheet" media="all">
+  <link href="vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
+  <link href="vendor/slick/slick.css" rel="stylesheet" media="all">
+  <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
+  <link href="vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all">
+
+  <!-- Main CSS-->
+  <link href="css/theme.css" rel="stylesheet" media="all">
+
+  <!-- Jquery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+
+<body ng-app="myApp" ng-controller="DirectoriesCtrl">
+  <div class="page-wrapper">
+    <!-- HEADER MOBILE-->
+        <header class="header-mobile d-block d-lg-none">
+            <div class="header-mobile__bar">
+                <div class="container-fluid">
+                    <div class="header-mobile-inner">
+                        <a class="logo" href="index.html">
+                            <img src="images/logo_totvs.png" alt="LogoTotvs" />
+                        </a>
+                        <button class="hamburger hamburger--slider" type="button">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar-mobile">
+                <div class="container-fluid">
+                    <ul class="navbar-mobile__list list-unstyled">
+                        <li>
+                            <a href="index.html">
+                                <i class="fas fa-chart-bar"></i>Métricas</a>
+                        </li>    
+                        <li class="active">
+                            <a href="settings.html">
+                                <i class="fas fa-cog"></i>Configurações</a>
+                        </li>                        
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- END HEADER MOBILE-->
+
+        <!-- MENU SIDEBAR-->
+        <aside class="menu-sidebar d-none d-lg-block">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo_totvs.png" alt="Logo Totvs" />
+                </a>
+            </div>
+            <div class="menu-sidebar__content js-scrollbar1">
+                <nav class="navbar-sidebar">
+                    <ul class="list-unstyled navbar__list">
+                        <li>
+                            <a href="index.html">
+                                <i class="fas fa-chart-bar"></i>Métricas</a>
+                        </li>
+                        <li class="active">
+                            <a href="settings.html">
+                                <i class="fas fa-cog"></i>Configurações</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+        <!-- END MENU SIDEBAR-->
+                        <!-- PAGE CONTAINER-->
+                        <div class="page-container">
+                          <!-- HEADER DESKTOP-->
+                          <header class="header-desktop">
+                            <div class="section__content section__content--p30">
+                              <div class="container-fluid">
+                                <div class="header-wrap">
+                                  <div class="overview-wrap">
+                                    <h2 class="title-1">Monitoramento de Backup</h2>
+                                  </div>
+                                  <div class="header-button">
+                                    <div class="account-wrap">
+                                      <div class="account-item clearfix js-item-menu">
+                                        <div class="image">
+                                          <img src="images/icon/avatar-01.jpg" alt="John Doe" />
+                                        </div>
+                                        <div class="content">
+                                          <a class="js-acc-btn" href="#">john doe</a>
+                                        </div>
+                                        <div class="account-dropdown js-dropdown">
+                                          <div class="info clearfix">
+                                            <div class="image">
+                                              <a href="#">
+                                                <img src="images/icon/avatar-01.jpg" alt="John Doe" />
+                                              </a>
+                                            </div>
+                                            <div class="content">
+                                              <h5 class="name">
+                                                <a href="#">john doe</a>
+                                              </h5>
+                                              <span class="email">johndoe@example.com</span>
+                                            </div>
+                                          </div>
+                                          <div class="account-dropdown__footer">
+                                            <a href="#">
+                                              <i class="zmdi zmdi-power"></i>Logout</a>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </header>
+                            <!-- HEADER DESKTOP-->
+
+                            <!-- MAIN CONTENT-->
+                            <div class="main-content">
+                              <div class="section__content section__content--p30">
+                                <div class="container-fluid"  style="margin-bottom: 50px;">
+                                  <div class="row">
+                                    <div>
+                                      <div class="overview-wrap" style="margin-bottom: 30px;">
+                                        <h2 class="title-1">Diretórios</h2>
+                                      </div>
+                                    </div>
+
+                                    <!-- DIRECTORIES CONTENT -->
+                                    <div class="row">
+                                      <div class="col-lg-12" style="margin-top: 30px;">
+                                        <!-- Nested node template -->
+                                        <script type="text/ng-template" id="nodes_renderer.html">
+                                          <div class="row justify-content-md-center">
+                                              <div ui-tree-handle class="tree-node tree-node-content title-3 col-lg-10" style="font-size: 15px; margin-top: 5px;">
+                                                <a ng-if="node.nodes && node.nodes.length > 0" data-nodrag ng-click="toggle(this)"><span
+                                                  class="glyphicon"
+                                                  ng-class="{
+                                                    'glyphicon-chevron-right': collapsed,
+                                                    'glyphicon-chevron-down': !collapsed
+                                                  }"></span></a>
+                                                  {{node.title}}
+                                                </div>
+                                                <div class="col col-lg-2">
+                                                  <input type="checkbox" name="checkboxes" ng-click="updateChildren(node.id)" value="{{node.path}}" id="{{node.id}}" style="text-align: center;" />
+                                                </div>
+                                          </div>
+
+
+                                          <!--div>
+                                              <input type="checkbox" name="checkboxes" ng-click="updateChildren(node.id)" value="{{node.path}}" id="{{node.id}}" />
+                                            </div-->
+                                            <ol ui-tree-nodes="" ng-model="node.nodes" ng-class="{hidden: collapsed}">
+                                              <li ng-repeat="node in node.nodes" ui-tree-node ng-include="'nodes_renderer.html'">
+                                              </li>
+                                            </ol>
+                                          </script>
+
+                                          <div class="row">
+                                            <div class="col-lg-12">
+                                              <div ui-tree id="tree-root">
+                                                <ol ui-tree-nodes ng-model="data">
+                                                  <li ng-repeat="node in data" ui-tree-node ng-include="'nodes_renderer.html'"></li>
+                                                </ol>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="col-lg-24" style="margin: 15px;">
+                                          <button ng-click="save()" style="vertical-align: right;" class="au-btn au-btn-icon au-btn--blue">Salvar</button>
+                                        </div>
+                                      </div>
+                                      <!-- END DIRECTORIES CONTENT-->
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- END MAIN CONTENT-->
+                              <!-- END PAGE CONTAINER-->
+                            </div>
+
+                          </div>
+
+                          <!-- Jquery JS-->
+                          <script src="vendor/jquery-3.2.1.min.js"></script>
+                          <!-- Angular JS-->
+                          <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+                          <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+                          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+                          <script src="http://mbenford.github.io/ngTagsInput/js/ng-tags-input.min.js"></script>
+                          <!-- Bootstrap JS-->
+                          <script src="vendor/bootstrap-4.1/popper.min.js"></script>
+                          <script src="vendor/bootstrap-4.1/bootstrap.min.js"></script>
+                          <!-- Vendor JS       -->
+                          <script src="vendor/slick/slick.min.js">
+                          </script>
+                          <script src="vendor/wow/wow.min.js"></script>
+                          <script src="vendor/animsition/animsition.min.js"></script>
+                          <script src="vendor/bootstrap-progressbar/bootstrap-progressbar.min.js">
+                          </script>
+                          <script src="vendor/counter-up/jquery.waypoints.min.js"></script>
+                          <script src="vendor/counter-up/jquery.counterup.min.js">
+                          </script>
+                          <script src="vendor/circle-progress/circle-progress.min.js"></script>
+                          <script src="vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
+                          <script src="vendor/chartjs/Chart.bundle.min.js"></script>
+                          <script src="vendor/select2/select2.min.js">
+                          </script>
+
+                          <!-- Main JS-->
+                          <script type="text/javascript" src="js/angular-ui-tree.js"></script>
+                          <script src="js/app.js"></script>
+                          <script src="js/open_directories.js"></script>
+                          <script src="js/settings.js"></script>
+
+                        </body>
+
+                        </html>
+                        <!-- end document-->
